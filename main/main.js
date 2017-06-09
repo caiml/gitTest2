@@ -8,9 +8,10 @@ module.exports = function main() {
 	}
 	//console.log(calculate(9,3));
 	//console.log(calculate(11,4));
-	var z=new calculate(9,3);
+	
+};
+var z=new calculate(9,3);
     console.log(z);
     var a=new calculate(11,4);
     console.log(a);
-};
 
