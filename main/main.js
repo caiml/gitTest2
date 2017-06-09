@@ -1,14 +1,14 @@
 // Write your cade below:
-module.exports = function main() {
-	function calculate(x,y){
+function calculate(x,y){
+	if (y !=0){
 	var z=x%y;
 	return z;
 	}
-	//console.log(calculate(9,3));
-	//console.log(calculate(11,4));
-	var a=calculate(9,3);
-	console.log(a);
-	var b=calculate(11,4);
-	console.log(b);	
-};
+	else console.log("输入无效");
+	}
+	
+module.exports = function main(x,y) {
+	calculate(x,y);
+}
+	
 
